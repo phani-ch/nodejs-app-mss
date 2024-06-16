@@ -3,7 +3,7 @@ const path = require('path');
 const cfenv = require('cfenv');
 const dotenv = require('dotenv');
 
-
+const env = process.env.NODE_ENV
 var app  =  express(); 
 var appEnv = cfenv.getAppEnv();
 var url = process.env.url
